@@ -1,0 +1,69 @@
+.ctr--qn {
+    background-color: white;
+    color: #4098BF;
+    width: 400px;
+    display: flex;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 6px #B3C9E5;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+
+}
+
+.btn {
+    background-color: #BBDEFB;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 18px;
+    cursor: grab;
+    
+
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    font-size: 12px;
+    min-height: 20px;
+
+}
+
+
+
+.ctr--qn header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+
+}
+
+@media only screen and (max-width:800px) {
+    .ctr--qn {
+        width: 250px;
+
+    }
+}
+
+@media (max-width:950px) and (min-width:750px) {
+    .ctr--qn{
+        width: 450px;
+
+    }
+
+    .ctr--qn header {
+        font-size: 13px;
+    }
+
+    p {
+
+        font-size: 16px;
+
+    }
+
+}
